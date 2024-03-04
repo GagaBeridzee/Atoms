@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: $normal-font-size;
+    background-color: $white;
+    color: $black-light;
+    height: 3000px;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+::selection{
+    background-color: $black-light;
+}
+
+i[class^="fi-rr-"]:before, i[class*=" fi-rr-"]:before, span[class^="fi-rr-"]:before, span[class*="fi-rr-"]:before{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 0;
+}
+
+.offcanvas{
+    width: 50% !important;
+    transition: .4s all ease-in-out;
+    padding: 40px;
+}
+
+@media screen and (max-width: 1152px){
+    .offcanvas{
+        width: 90% !important;
+        transition: .4s all ease-in-out;
+        padding: 5px;
+    }
+}

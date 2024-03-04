@@ -1,0 +1,46 @@
+// colors
+$white: rgb(255, 255, 255);
+
+$black-light: rgb(17, 17, 17);
+$black-dark: rgb(0, 0, 0);
+
+$gray-light: rgb(142, 142, 147);
+$gray-light-2: rgb(174, 174, 178);
+$gray-light-3: rgb(199, 199, 204);
+$gray-light-4: rgb(209, 209, 214);
+$gray-light-5: rgb(229, 229, 234);
+$gray-light-6: rgb(242, 242, 247);
+
+$gray-dark: rgb(142, 142, 147);
+$gray-dark-2: rgb(99, 99, 102);
+$gray-dark-3: rgb(72, 72, 74);
+$gray-dark-4: rgb(58, 58, 60);
+$gray-dark-5: rgb(44, 44, 46);
+$gray-dark-6: rgb(28, 28, 30);
+
+$red-light: rgb(255, 59, 48);
+$red-dark: rgb(255, 69, 58);
+
+$green-light: rgb(40, 205, 65);
+$green-dark: rgb(50, 215, 75);
+
+$blue-light: rgb(0, 122, 255);
+$blue-dark: rgb(10, 132, 255);
+
+// font sizes
+$normal-font-size: 0.938rem;
+$small-font-size: 0.813rem;
+$smaller-font-size: 0.75rem;
+//font bold
+$font-medium: 500;
+$font-semi-bold: 600;
+// z index
+$z-tooltip: 10;
+$z-fixed: 100;
+
+@media screen and (min-width: 1024px) {
+    // font sizes
+    $normal-font-size: 1rem;
+    $small-font-size: 0.875rem;
+    $smaller-font-size: 0.813rem;
+}
