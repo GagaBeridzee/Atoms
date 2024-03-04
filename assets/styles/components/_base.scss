@@ -69,11 +69,3 @@ i[class^="fi-rr-"]:before, i[class*=" fi-rr-"]:before, span[class^="fi-rr-"]:bef
         outline: none;
     }
 }
-
-@media screen and (max-width: 1152px){
-    .offcanvas{
-        width: 90% !important;
-        transition: .4s all ease-in-out;
-        padding: 5px;
-    }
-}

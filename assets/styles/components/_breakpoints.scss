@@ -124,4 +124,10 @@
         justify-content: end;
         padding: 0;
     }
+
+    .offcanvas{
+        width: 90% !important;
+        transition: .4s all ease-in-out;
+        padding: 5px;
+    }
 }
